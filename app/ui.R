@@ -8,9 +8,8 @@ ui <- fluidPage(
     fluidRow(
       column(width = 3,
              style = "background-color: #e6e6e6; border: 1px solid black; border-radius: 10px; padding: 20px;",
+             
              #Selection control part
-                          #Add three selection elements, one for the survival status, one for pclass and one for the gender of the passengers. Set their initial selections using the selected argument.
-             #Add one slider for selecting age range.
              
              #Passenger class selection
              checkboxGroupInput("pclass", "Passenger Class:",  
